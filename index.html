@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <nav class="nav">
+        <img src="./images/dine.svg" alt="dine" />
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-mobile">
+          <i class="fa-solid fa-bars" id="burger-menu"></i>
+          <ul class="nav-list-mobile">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-container">
+        <h1 class="header-text">Exquisite dining since 1989</h1>
+        <p class="header-paragraph">
+          Experience our seasonal menu in beautiful country surroundings. Eat
+          the freshest produce from the comfort of our farmhouse.
+        </p>
+        <button class="header-button">BOOK A TABLE</button>
+      </div>
+    </div>
+
+    <!-- images section -->
+
+    <section>
+      <div class="river-container">
+        <img src="./images/river.png" alt="river" class="desktop" />
+        <img src="./images/river-mobile.png" alt="river" class="mobile" />
+        <div class="river-text-container">
+          <h3 class="river-title">Enjoyable place for all the family</h3>
+          <p class="river-paragraph">
+            Our relaxed surroundings make dining with us a great experience for
+            everyone. We can even arrange a tour of the farm before your meal.
+          </p>
+        </div>
+      </div>
+      <div class="sweet-container">
+        <div class="sweet-text-container">
+          <h3 class="sweet-title">The most locally sourced food</h3>
+          <p class="sweet-paragraph">
+            All our ingredients come directly from our farm or local fishery. So
+            you can be sure that you’re eating the freshest, most sustainable
+            food.
+          </p>
+        </div>
+        <img src="./images/sweet.png" alt="sweet" class="desktop" />
+        <img src="./images/sweet-mobile.png" alt="sweet" class="mobile" />
+      </div>
+    </section>
+
+    <!-- cards container  -->
+
+    <div class="cards-container">
+      <div class="cards-container-text">
+        <h3 class="cards-container-title">A few highlights from our menu</h3>
+        <p class="cards-container-paragraph">
+          We cater for all dietary requirements, but here’s a glimpse at some of
+          our diner’s favourites. Our menu is revamped every season.
+        </p>
+      </div>
+      <div class="cards-container-right"></div>
+    </div>
+
+    <!-- slider section -->
+    <div class="slider">
+      <div class="slider-content">
+        <i class="fa-solid fa-circle-chevron-right" id="slider-down"></i>
+        <div class="slider-item active">
+          <div class="family-gathering-container">
+            <img
+              src="./images/family-gathering.png"
+              alt="family"
+              class="family-desktop"
+            />
+            <img
+              src="./images/family-gathering-mobile.png"
+              alt="family"
+              class="family-mobile"
+            />
+            <div class="family-gathering-text-container">
+              <div class="reverse-container">
+                <h3 class="family-gathering-title">Family Gathering</h3>
+                <p class="family-gathering-paragraph">
+                  We love catering for entire families. So please bring everyone
+                  along for a special meal with your loved ones. We’ll provide a
+                  memorable experience for all.
+                </p>
+                <button class="family-gathering-button">BOOK A TABLE</button>
+              </div>
+
+              <div class="family-gathering-active-text">
+                <p class="family-gathering-active">FAMILY GATHERING</p>
+                <p class="family-gathering-inactive">SPECIAL EVENTS</p>
+                <p class="family-gathering-inactive">SOCIAL EVENTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Special Events  -->
+        <div class="slider-item">
+          <div class="family-gathering-container">
+            <img src="./images/special-events.png" alt="family" />
+            <div class="family-gathering-text-container">
+              <h3 class="family-gathering-title">Special Events</h3>
+              <p class="family-gathering-paragraph">
+                Whether it’s a romantic dinner or special date you’re
+                celebrating with others we’ll look after you. We’ll be sure to
+                mark your special date with an unforgettable meal.
+              </p>
+              <button class="family-gathering-button">BOOK A TABLE</button>
+              <div class="family-gathering-active-text">
+                <p class="family-gathering-inactive">FAMILY GATHERING</p>
+                <p class="family-gathering-active">SPECIAL EVENTS</p>
+                <p class="family-gathering-inactive">SOCIAL EVENTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Social Events -->
+        <div class="slider-item">
+          <div class="family-gathering-container">
+            <img src="./images/social-events.png" alt="family" />
+            <div class="family-gathering-text-container">
+              <h3 class="family-gathering-title">Social Events</h3>
+              <p class="family-gathering-paragraph">
+                Are you looking to have a larger social event? No problem! We’re
+                more than happy to cater for big parties. We’ll work with you to
+                make your event a hit with everyone.
+              </p>
+              <button class="family-gathering-button">BOOK A TABLE</button>
+              <div class="family-gathering-active-text">
+                <p class="family-gathering-inactive">FAMILY GATHERING</p>
+                <p class="family-gathering-inactive">SPECIAL EVENTS</p>
+                <p class="family-gathering-active">SOCIAL EVENTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i class="fa-solid fa-circle-chevron-left" id="slider-up"></i>
+      </div>
+    </div>
+
+    <!-- reservation section -->
+
+    <section class="reservation-section">
+      <h1 class="reservation-title">Ready to make a reservation?</h1>
+      <button class="reservation-button">
+        <a href="#" class="reservation-button-text">BOOK A TABLE</a>
+      </button>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-section">
+      <img src="./images/dine.svg" alt="dine" class="footer-image" />
+
+      <div class="footer-container">
+        <div class="footer-adress-container">
+          <p>Marthwaite, Sedbergh</p>
+          <p>Cumbria</p>
+          <p>+00 44 123 4567</p>
+        </div>
+        <div class="footer-times-container">
+          <p>OPEN TIMES</p>
+          <p>MON - FRI: 09:00 AM - 10:00 PM</p>
+          <p>SAT - SUN: 09:00 AM - 11:30 PM</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

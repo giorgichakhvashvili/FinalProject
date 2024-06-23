@@ -1,0 +1,664 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    width: 100%;
+    height: 820px;
+    background-image: url(images/main-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-container {
+    color: rgba(255, 255, 255, 1);
+    font-family: League Spartan;
+    padding-left: 167px;
+    padding-top: 153px;    
+}
+.header-text {
+    max-width: 508px;
+    width: 100%;
+    height: 160px;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 80px;
+    letter-spacing: -1px;
+}
+.header-paragraph {
+    max-width: 445px;
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.header-button {
+    max-width: 245px;
+    width: 100%;
+    height: 64px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+    margin-top: 40px;
+}
+.header-button:hover {
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(23, 25, 43, 1);
+    transition: 1.2s;
+}
+.nav {
+    color: #fff;
+    display: flex;
+    padding-top: 65px;
+    padding-left: 167px;
+}
+.nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: League Spartan;
+    padding-left: 5px;
+    font-size: 17px;
+    color: rgba(255,235,235)
+}
+.nav-mobile { 
+    display: none;
+}
+/* images section */
+
+.river-container {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-top: 80px;
+    align-items: center;
+}
+.river-text-container {
+    max-width: 445px;
+    width: 100%;
+    height: 213px;
+}
+.river-title {
+    height: 96px;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: rgba(36, 43, 55, 1);
+}
+.river-paragraph {
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(36, 43, 55, 1);
+    margin-top: 27px;
+}
+.sweet-container {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-top: 121px;
+    align-items: center;
+}
+.sweet-text-container {
+    max-width: 445px;
+    width: 100%;
+    height: 213px;
+}
+.sweet-title {
+    max-width: 445px;
+    width: 100%;
+    height: 96px;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: rgba(36, 43, 55, 1);
+}
+.sweet-paragraph {
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(36, 43, 55, 1);
+    margin-top: 27px;
+}
+/* mobile x desktop */
+.desktop {
+    display:block;
+   }
+ 
+  .mobile{
+   display:none;
+  }
+
+  /* cards-container */
+
+  .cards-container {
+    width: 100%;
+    height: 761px;
+    background-color:  rgba(17, 17, 17, 1);
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+  }
+.cards-container-text {
+    max-width: 445px;
+    width: 100%;
+    height: 213px;
+}
+.cards-container-title {
+    max-width: 445px;
+    width: 100%;
+    height: 96px;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 1);
+}
+.cards-container-paragraph {
+    max-width: 445px;
+    width: 100%;
+    height: 90px;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 27px;
+}
+.cards-container-right{
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    max-width: 540px;
+    width: 100%;
+}
+.card {
+    display: flex;
+    max-width: 540px;
+    width: 100%;
+    height: 96px;
+    gap: 30px;
+}
+.card-title {
+    max-width: 350px;
+    width: 100%;
+    height: 24px;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: rgba(255, 255, 255, 1);
+}
+.card-paragraph {
+    /* max-width: 350px;
+    width: 100%;
+    height: 52px; */
+    font-family: League Spartan;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+}
+.card-image {
+    max-width: 128px;
+    width: 100%;
+    height: 96px;
+}
+
+/* slider */
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider-item {
+    display: none;
+}
+.active {
+    display: block;
+}
+.slider-content {
+    max-width: 1150px;
+    width: 100%;
+    position: relative;
+}
+#slider-down {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+#slider-down:hover {
+    opacity: 1;
+    transition: 1.12s;
+}
+#slider-up {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+#slider-up:hover {
+    opacity: 1;
+    transition: 1.12s;
+}
+/* family gathering  */
+
+.family-gathering-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 160px;
+    gap: 125px;
+    width: 100%;
+}
+.family-gathering-text-container {
+    max-width: 1110px;
+    width: 100%;
+    height: 468px;
+    margin-top: 70px;
+}
+.family-gathering-title {
+    max-width: 445px;
+    width: 100%;
+    height: 48px;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: rgba(36, 43, 55, 1);
+}
+.family-gathering-paragraph {
+    max-width: 445px;
+    width: 100%;
+    height: 90px;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(36, 43, 55, 1);
+    margin-top: 19px;
+}
+.family-gathering-button {
+    max-width: 245px;
+    width: 100%;
+    height: 64px;
+    border: 1px solid  rgba(17, 17, 17, 1);
+    background: rgba(17, 17, 17, 1);
+    margin-top: 60px;
+    font-family: League Spartan;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.family-gathering-button:hover {
+    border: 1px solid rgba(23, 25, 43, 1);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(23, 25, 43, 1);
+    transition: 1.2s;
+}
+.family-gathering-active-text {
+    max-width: 312px;
+    width: 100%;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 79px;
+}
+.family-gathering-active {
+    max-width: 250px;
+    width: 100%;
+    height: 28px;
+    font-family: League Spartan;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    color: rgba(76, 76, 76, 1);
+}
+.family-gathering-inactive {
+    max-width: 250px;
+    width: 100%;
+    height: 28px;
+    opacity: 0.5;
+    font-family: League Spartan;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    color: rgba(76, 76, 76, 1);
+}
+.family-desktop {
+    display: block;
+}
+.family-mobile {
+    display: none;
+}
+
+/* reservation section  */
+.reservation-section {
+    width: 100%;
+    height: 240px;
+    background-image: url(./images/footer-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+.reservation-title {
+    max-width: 615px;
+    width: 100%;
+    height: 48px;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 1);
+}
+.reservation-button {
+    max-width: 245px;
+    width: 100%;
+    height: 64px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+}
+.reservation-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transition: 1.12s;
+}
+.reservation-button-text {
+    text-decoration: none;
+    font-family: League Spartan;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+    color: rgba(255, 255, 255, 1);
+}
+.reservation-button-text:hover {
+    color: rgba(17, 17, 17, 1);
+    transition: 1.12s;
+}
+
+/* footer section */
+.footer-image {
+    max-width: 103.42px;
+    width: 100%;
+    height: 40px;
+}
+.footer-section {
+    width: 100%;
+    height: 240px;
+    background-color: rgba(17, 17, 17, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 192px;
+}
+.footer-container {
+    max-width: 814px;
+    width: 100%;
+    height: 84px;
+    display: flex;
+    gap: 124px;
+}
+.footer-adress-container {
+    max-width: 244px;
+    width: 100%;
+    height: 84px;
+    font-family: League Spartan;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-times-container {
+    max-width: 446px;
+    width: 100%;
+    height: 84px;
+    font-family: League Spartan;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 1);
+}
+/* mobile  */ /* mobile  */ /* mobile  */ /* mobile  */ /* mobile  */
+
+
+@media (max-width: 768px) {
+    .main-container {
+        max-width: 768px;
+        width: 100%;
+        height: 992px;   
+        background-image:url(images/main-image-mobile.jpg);
+    }
+    .nav {
+        padding: 374px 0px 0px 0px;
+        justify-content: center;
+        gap: 5px;
+    }
+    .header-container {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-text {
+        width: 389px;
+        height: 128px;
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 64px;
+        letter-spacing: -0.6000000238418579px;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .header-paragraph {
+        max-width: 573px;
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header-button {
+        margin-top: 52px;
+    }
+    .nav-list {
+        display: none;
+    }
+    #burger-menu {
+        cursor: pointer;
+        font-size: 30px;
+    }
+    .nav-mobile {
+        position: relative;
+        display: block;
+        padding-top: 10px;
+
+    }
+    .nav-list-mobile {
+        display: none;
+        list-style: none;
+        background-color: transparent;
+        position: absolute;
+        width: 50px;
+        right: 0;
+    }
+    .active {
+        display: block;
+    }
+
+    /* image section  */
+
+    .desktop {
+        display:none;
+       }
+     
+      .mobile{
+       display:block;
+      }
+
+    .river-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .river-text-container {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .sweet-container {
+        flex-direction: column-reverse;
+        gap: 102px;
+    }
+    .sweet-text-container {
+        text-align: center;
+    }
+
+    /* cards-container */
+
+    .cards-container {
+        max-width: 768px;
+        width: 100%;
+        height: 891px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards-container-title {
+        text-align: center;
+    }
+    .cards-container-paragraph {
+        text-align: center;
+    }
+    .cards-container-right {
+        max-width: 573px;
+        width: 100%;
+        height: 386px;
+    }
+    /*  */
+    .family-desktop {
+        display: none;
+    }
+    .family-mobile {
+        display: block;
+    }
+    .slider-content {
+        position: static;
+    }
+    .family-gathering-container {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 120px;
+    }
+    .family-gathering-text-container {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: none;
+        height: fit-content;
+        
+    }
+    .family-gathering-active-text{
+        flex-direction: row;
+        max-width: none;
+        height: 36px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 47px;
+    }
+    .reverse-container {
+        width: 100%;
+        height: 281px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .family-gathering-paragraph{
+        width: 457px;
+        max-width: 100%
+    }
+
+    /* reservation section */
+
+    .reservation-section {
+        background-image: url(./images/reservation-mobile.jpg);
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 120px;
+        height: 272px;
+    }
+    .reservation-button:hover {
+        background-color: transparent;
+    }
+    .reservation-button-text:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    /* footer section */
+
+    .footer-section {
+        max-width: 768px;
+        width: 100%;
+        height: 328px;
+        align-items:normal;
+        padding-left: 39px;
+    }
+    .footer-container {
+        max-width: 456px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 66px;
+    }
+    .footer-image {
+        margin-top: 64px;
+    }
+}
