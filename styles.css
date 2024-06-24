@@ -47,6 +47,7 @@
     line-height: 16px;
     letter-spacing: 2.5px;
     margin-top: 40px;
+    cursor: pointer;
 }
 .header-button:hover {
     border: none;
@@ -464,6 +465,159 @@
     letter-spacing: 2px;
     color: rgba(255, 255, 255, 1);
 }
+
+ /* RESERVATION PAGE */
+
+ .reservastion-page-header {
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/reservation-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .reservation-page-image {
+    max-width: 103px;
+    width: 100%;
+    height: 40px;
+ }
+ .reservastion-page-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    padding-left: 167px;
+    gap: 153px;
+ }
+ .reservastion-page-text-container {
+    max-width: 445px;
+    width: 100%;
+    height: 188px;
+ }
+ .reservastion-page-title {
+    max-width: 396px;
+    width: 100%;
+    height: 80px;
+    font-family: League Spartan;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 80px;
+    letter-spacing: -1px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 18px;
+ }
+ .reservastion-page-span {
+    max-width: 445px;
+    width: 100%;
+    height: 90px;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+ }
+
+/* input section */
+
+.input-section-relative {
+    position: relative;
+}
+.input-section-absolute {
+    position: absolute;
+    top: -342px;
+    right: 165px;
+    max-width: 540px;
+    width: 100%;
+    height: 545px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 50px 48px 0px 48px;
+}
+
+/* form */
+
+input[type="name"]{
+    max-width: 444px;
+    width: 100%;
+    height: 43px;
+    padding: 0px 0px 14px 16px;
+    border: none;
+    border-bottom: solid 1px;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+input[type="email"]{
+    max-width: 444px;
+    width: 100%;
+    height: 43px;
+    padding: 0px 0px 14px 16px;
+    border: none;
+    border-bottom: solid 1px;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 34px;
+}
+.month {
+    display: flex;
+    margin-top: 34px;
+    max-width: 444px;
+    width: 100%;
+    height: 43px;
+}
+.month-title {
+    max-width: 90px;
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(17, 17, 17, 1);
+}
+.time {
+    display: flex;
+    margin-top: 34px;
+    max-width: 444px;
+    width: 100%;
+    height: 43px;
+}
+.range{
+    display: flex;
+    justify-content: center;
+    max-width: 444px;
+    width: 100%;
+    height: 41px;
+    margin-top: 36px;
+}
+.input-button {
+    max-width: 444px;
+    width: 100%;
+    height: 64px;
+    margin-top: 32px;
+    background-color: rgba(17, 17, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: League Spartan;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    cursor: pointer;
+}
+.input-button:hover {
+    border: 1px solid rgba(17, 17, 17, 1);
+    background-color: transparent;
+    color: rgba(17, 17, 17, 1);;
+    transition: 1.12s;
+    cursor: pointer;
+}
+.reservation-footer {
+    margin-top: 320px;
+}
+
 /* mobile  */ /* mobile  */ /* mobile  */ /* mobile  */ /* mobile  */
 
 
@@ -660,5 +814,46 @@
     }
     .footer-image {
         margin-top: 64px;
+    }
+
+    /* reservation mobile */
+
+    .reservastion-page-header {
+        max-width: 768px;
+        height: 600px;
+        background-image: url(./images/reservationpage-mobile.png);
+
+    }
+    .reservastion-page-container {
+        padding-left: 0px;
+        gap: 70px;
+        margin-left: 39px;
+    }
+    .reservastion-page-text-container {
+        max-width: 689px;
+        height: 166px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reservastion-page-title {
+        max-width: 689px;
+        height: 64px;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -0.6000000238418579px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .reservastion-page-span {
+        max-width: 573px;
+        text-align: center;
+    }
+    .input-section-absolute {
+        top: -220px;
+        right: 100px;
+    }
+    .reservation-footer {
+        margin-top: 435px;
     }
 }

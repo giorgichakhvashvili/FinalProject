@@ -72,3 +72,7 @@ sliderDown.addEventListener("click", () => {
     }
     sliderItem[currentIndex].classList.add("active");
 });
+
+
+
+// regex
