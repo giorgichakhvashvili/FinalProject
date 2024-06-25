@@ -76,3 +76,32 @@ sliderDown.addEventListener("click", () => {
 
 
 // regex
+
+// const inputs = document.querySelectorAll("input");
+
+// console.log(inputs);
+// const patterns = {
+//  username: /^[a-z\d]{5,12}$/i,
+//  email: /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/,
+// };
+
+// patterns["username"];
+
+// const testCase = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+// const string = "test";
+// testCase.test("test");
+// string.match(testCase);
+
+// const validate = (field, regex) => {
+//  if (regex.test(field.value)) {
+//   field.className = "valid";
+//  } else {
+//   field.className = "invalid";
+//  }
+// };
+
+// for (let input of inputs) {
+//  input.addEventListener("keyup", (e) => {
+//   validate(e.target, patterns[e.target.attributes.name.value]);
+//  });
+// }
